@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Obra
+
+@admin.register(Obra)
+class ObraAdmin(admin.ModelAdmin):
+    pass
