@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'Obras',
+    'Contratista',
 
     'django.contrib.admin',
     'django.contrib.auth',
